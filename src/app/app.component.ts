@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+import {
+  Component,
+
+} from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  template: `<div class="container">
+                <h1 class="title">Rank me!</h1>
+                <yb-layout></yb-layout>
+             </div>
+   `,
+  styles: []
 })
 export class AppComponent {
-  title = 'rank-me';
+
+
 }
